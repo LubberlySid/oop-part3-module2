@@ -14,15 +14,10 @@ class Books:
 
 
 class Library:
+    books = []
     """
        This class is created for represent our library
                                                       """
-
-    def __init__(self, books=None):
-        """
-           We use this method for represent our variables
-                                                         """
-        self.books = []
 
     def add_book(self, other):
         self.books.append(other)
